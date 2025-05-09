@@ -96,3 +96,5 @@ public class HeapStructure{
         }
     }
 }
+
+//To make it print in reverse(large to small) make cmparison changes in line 13, 36, 39
