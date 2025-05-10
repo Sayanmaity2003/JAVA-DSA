@@ -1,3 +1,7 @@
+//PROBLEM STATEMENT:
+//We are given N points in a 2D plane which are locations of N cars.
+//If we are at the origin, print the nearest K cars
+//Given: C0(3,3), C1(5,-1), C2(-2,4) and K = 2
 import java.util.*;
 public class NearbyCars{
     public static class Point implements Comparable<Point>{
