@@ -84,7 +84,13 @@ public class HeapUsingArray{
 
 
         }
-        
+        public int peek(){
+            if(size==0){
+                System.out.println("Heap underflow");
+            }
+            return arr[0];
+        }
+
     }
     public static void main(String args[]){
         maxHeap h1 = new maxHeap(6);
@@ -100,5 +106,7 @@ public class HeapUsingArray{
 
         h1.delete();
         h1.delete();
+
+        System.out.println("Peek element is: "+h1.peek());
     }
 }
